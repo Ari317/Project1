@@ -2,11 +2,44 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Link from "next/link";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [filteredTopics, setFilteredTopics] = useState([]);
+
+  const topics = [
+    {
+      id: "1",
+      title: "BSI mobile",
+      slug: "BSI_Mobile",
+    },
+    {
+      id: "2",
+      title: "Calo Tiket",
+      slug: "Calo_Tiket",
+    },
+    {
+      id: "3",
+      title: "Messi",
+      slug: "Messi",
+    },
+  ];
+
+  const handleSearch = (event) => {
+    const searchTerm = event.target.value;
+    setSearchTerm(searchTerm);
+
+    const filteredTopics = topics.filter((topic) =>
+      topic.title.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setFilteredTopics(filteredTopics);
+  };
+
+  const topicsToDisplay = searchTerm ? filteredTopics : topics;
+
   return (
     <>
       <Head>
@@ -36,41 +69,28 @@ export default function Home() {
           />
         </div>
         <h3>Pilih topik:</h3>
+        {}
+        <input
+          type="text"
+          placeholder="Cari topik..."
+          value={searchTerm}
+          onChange={handleSearch}
+        />
         <br />
         <ul>
-          <div className={styles.card}>
-            <li>
-              <a
-                href={`/posts/BSI_Mobile`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                BSI mobile
-              </a>
-            </li>
-          </div>
-          <div className={styles.card}>
-            <li>
-              <a
-                href={`/posts/Calo_Tiket`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Calo Tiket
-              </a>
-            </li>
-          </div>
-          <div className={styles.card}>
-            <li>
-              <a
-                href={`/posts/Messi`}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Messi
-              </a>
-            </li>
-          </div>
+          {topicsToDisplay.map((topic) => (
+            <div className={styles.card} key={topic.id}>
+              <li>
+                <a
+                  href={`/posts/${topic.slug}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {topic.title}
+                </a>
+              </li>
+            </div>
+          ))}
         </ul>
       </main>
     </>
