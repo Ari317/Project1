@@ -103,9 +103,27 @@ export default function Post() {
           </div>
           <div id="User2" className={styles.card}>
             <h1>Filtering Data</h1> <br />
+            <Image
+              className={styles.logoContainer}
+              src="/DIagram Grafik BSI Mobile.png"
+              alt="Next.js Logo"
+              width={600}
+              height={400}
+              priority
+              float="right"
+            />
           </div>
           <div id="User3" className={styles.card}>
             <h1>Analisa Data</h1> <br />
+            <Image
+              className={styles.logoContainer}
+              src="/Hasil 4.png"
+              alt="Next.js Logo"
+              width={600}
+              height={400}
+              priority
+              float="right"
+            />
           </div>
           <div id="Tentang-kami" className={styles.card}>
             <h1>Tentang Kami</h1> <br />

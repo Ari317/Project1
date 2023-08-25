@@ -126,112 +126,30 @@ export default function Post() {
           >
             <h3>User yang paling berdampak</h3>
           </div>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>mwv.mystic</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1179451804280479744</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Posting</h3>
-              <p>1</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>509</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>113</p>
-            </a>
-          </div>
-          <div
-            className={styles.grud}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Text</h3>
-              <p>
-                CALO PENIPU TIKET MATCH ARGENTINA VS INDONESIA. Aku rugi puluhan
-                juta dan ada banyak korban lainnya. Jangan percaya sama akun
-                [input nama akun] , dia pake rekening [input nama bank] a.n
-                [input nama orang] Semoga gaada lagi yang ketipu sama [input
-                nama akun] a thread
-              </p>
-            </div>
-          </div>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>Firzie A. Idris</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>28201831</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Posting</h3>
-              <p>1</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>45</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>8</p>
-            </a>
-          </div>
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>mwv.mystic</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1179451804280479744</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Posting</h3>
+            <p>1</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>509</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>113</p>
+          </a>
+        </div>
+        <div className={styles.grud} target="_blank" rel="noopener noreferrer">
           <div
             className={styles.card}
             target="_blank"
@@ -239,70 +157,79 @@ export default function Post() {
           >
             <h3>Text</h3>
             <p>
-              Dengan harga tiket premium menghadapi juara dunia, kita seharusnya
-              expect pengorganisasian kelas satu dr PSSI, Tiketcom, & pengurus
-              GBK. Stewarding hrs profesional, pihak pengamanan ga lagi
-              memasukkan orang tanpa tiket, calo diberantas. Ini yg masih
-              terjadi di Piala AFF terakhir.
+              CALO PENIPU TIKET MATCH ARGENTINA VS INDONESIA. Aku rugi puluhan
+              juta dan ada banyak korban lainnya. Jangan percaya sama akun
+              [input nama akun] , dia pake rekening [input nama bank] a.n [input
+              nama orang] Semoga gaada lagi yang ketipu sama [input nama akun] a
+              thread
             </p>
           </div>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>KimTzuyu1406</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1174287141909590017</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Posting</h3>
-              <p>1</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>31</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>4</p>
-            </a>
-          </div>
-          <div
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h3>Text</h3>
-            <p>
-              Tak mau calo tiket merajalela, Ketua Umum PSSI Erick Thohir
-              menyampaikan bahwa di laga Indonesia vs Argentina, pihaknya akan
-              berusaha memperketat penjualan tiket. Cc. @erickthohir
-            </p>
-          </div>
+
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>Firzie A. Idris</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>28201831</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Posting</h3>
+            <p>1</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>45</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>8</p>
+          </a>
         </div>
+        <div className={styles.card} target="_blank" rel="noopener noreferrer">
+          <h3>Text</h3>
+          <p>
+            Dengan harga tiket premium menghadapi juara dunia, kita seharusnya
+            expect pengorganisasian kelas satu dr PSSI, Tiketcom, & pengurus
+            GBK. Stewarding hrs profesional, pihak pengamanan ga lagi memasukkan
+            orang tanpa tiket, calo diberantas. Ini yg masih terjadi di Piala
+            AFF terakhir.
+          </p>
+        </div>
+
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>KimTzuyu1406</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1174287141909590017</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Posting</h3>
+            <p>1</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>31</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>4</p>
+          </a>
+        </div>
+        <div className={styles.card} target="_blank" rel="noopener noreferrer">
+          <h3>Text</h3>
+          <p>
+            Tak mau calo tiket merajalela, Ketua Umum PSSI Erick Thohir
+            menyampaikan bahwa di laga Indonesia vs Argentina, pihaknya akan
+            berusaha memperketat penjualan tiket. Cc. @erickthohir
+          </p>
+        </div>
+
         <div className={styles.card}>
           <Image
             className={styles.logoContainer}

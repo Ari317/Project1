@@ -126,172 +126,97 @@ export default function Post() {
           >
             <h3>User yang paling berdampak</h3>
           </div>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>idextratime</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1222927522033094656</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>1995</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>16729</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>3640</p>
-            </a>
-          </div>
-          <div
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h3>Text</h3>
-            <p>
-              🚨 BREAKING: Lionel Messi hanya akan memainkan pertandingan
-              pertama melawan Australia di Beijing, namun TIDAK IKUT ke
-              Indonesia pada 19 Juni. 📝 @leoparadizo Semoga ga bener
-              😭😭😭😭😭😭 https://t.co/oPKRjTEyoC
-            </p>
-          </div>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>tanyarlfes</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1371650588</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>1808</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>37172</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>1569</p>
-            </a>
-          </div>
-          <div
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h3>Text</h3>
-            <p>
-              💚 ❌ Ditipu calo ✅ Ditipu bang messi https://t.co/14a0MTisra
-            </p>
-          </div>
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>idextratime</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1222927522033094656</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>1995</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>16729</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>3640</p>
+          </a>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>jek___</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>385996689</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Retweet</h3>
-              <p>1058</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>18819</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>538</p>
-            </a>
-          </div>
-          <div
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h3>Text</h3>
-            <p>
-              pinter ya. setelah tiket sold out, baru keluar pengumuman kalo
-              messi batal ikut ke indonesia hahahaha untung tiketnya 4 jutaan
-              doang ini. giveawayin aja kali y
-            </p>
-          </div>
+        <div className={styles.card} target="_blank" rel="noopener noreferrer">
+          <h3>Text</h3>
+          <p>
+            🚨 BREAKING: Lionel Messi hanya akan memainkan pertandingan pertama
+            melawan Australia di Beijing, namun TIDAK IKUT ke Indonesia pada 19
+            Juni. 📝 @leoparadizo Semoga ga bener 😭😭😭😭😭😭
+            https://t.co/oPKRjTEyoC
+          </p>
         </div>
+
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>tanyarlfes</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1371650588</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>1808</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>37172</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>1569</p>
+          </a>
+        </div>
+        <div className={styles.card} target="_blank" rel="noopener noreferrer">
+          <h3>Text</h3>
+          <p>💚 ❌ Ditipu calo ✅ Ditipu bang messi https://t.co/14a0MTisra</p>
+        </div>
+
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>jek___</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>385996689</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Retweet</h3>
+            <p>1058</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>18819</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>538</p>
+          </a>
+        </div>
+        <div className={styles.card} target="_blank" rel="noopener noreferrer">
+          <h3>Text</h3>
+          <p>
+            pinter ya. setelah tiket sold out, baru keluar pengumuman kalo messi
+            batal ikut ke indonesia hahahaha untung tiketnya 4 jutaan doang ini.
+            giveawayin aja kali y
+          </p>
+        </div>
+
         <div className={styles.card}>
           <Image
             className={styles.logoContainer}

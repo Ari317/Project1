@@ -188,70 +188,43 @@ export default function Post() {
           >
             <h3>User yang paling berkontribusi</h3>
           </div>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>bankbsi_id</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>141500996</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Reetweet</h3>
-              <p>242</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>716</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>2308</p>
-            </a>
-          </div>
-          <div
-            className={styles.grud}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Text</h3>
-              <p>
-                Assalamu'alaikum Wr. Wb, Sahabat Syariah! nnKami sampaikan saat
-                ini BSI tengah melakukan maintenance system dan akan kembali ke
-                kondisi normal secepatnya. nnKami menyampaikan permohonan maaf
-                kepada nasabah atas ketidaknyamanannya dalam melalukan transaksi
-                keuangan pada hari ini. https://t.co/V670IzNGp3
-              </p>
-            </a>
-          </div>
         </div>
-        <div className={styles.grod}>
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>bankbsi_id</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>141500996</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Reetweet</h3>
+            <p>242</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>716</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>2308</p>
+          </a>
+        </div>
+        <div className={styles.grud} target="_blank" rel="noopener noreferrer">
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Text</h3>
+            <p>
+              Assalamu'alaikum Wr. Wb, Sahabat Syariah! nnKami sampaikan saat
+              ini BSI tengah melakukan maintenance system dan akan kembali ke
+              kondisi normal secepatnya. nnKami menyampaikan permohonan maaf
+              kepada nasabah atas ketidaknyamanannya dalam melalukan transaksi
+              keuangan pada hari ini. https://t.co/V670IzNGp3
+            </p>
+          </a>
+        </div>
+
+        <div className={styles.grud}>
           <a className={styles.card} target="_blank" rel="noopener noreferrer">
             <h3>Username</h3>
             <p>irtikcantik</p>
@@ -284,193 +257,105 @@ export default function Post() {
             </p>
           </a>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>wahsur</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>84007270</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Reetweet</h3>
-              <p>32</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>7</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>16</p>
-            </a>
-          </div>
-          <div
-            className={styles.grud}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Text</h3>
-              <p>
-                Gangguan hari Senin 8 Mei 2023 dari pagi sampai waktu yang belum
-                ditentukan.nBSI MOBILE ERROR Connection Timeout, Ke Bank enggak
-                bisa ambil tunai karena alasan belum online, ATM juga enggak
-                bisa...nAstagfirullah. Lagi darurat ginin@bankbsi_id
-                https://t.co/IWS7V3C7Hj
-              </p>
-            </a>
-          </div>
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>wahsur</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>84007270</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Reetweet</h3>
+            <p>32</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>7</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>16</p>
+          </a>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>KimTzuyu1406</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1655335707928580000</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Reetweet</h3>
-              <p>28</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>7</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>112</p>
-            </a>
-          </div>
-          <div
-            className={styles.grud}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Text</h3>
-              <p>BSI Mobile kenapa sihh? @bankbsi_id https://t.co/XqhksQ00BM</p>
-            </a>
-          </div>
+        <div className={styles.grud} target="_blank" rel="noopener noreferrer">
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Text</h3>
+            <p>
+              Gangguan hari Senin 8 Mei 2023 dari pagi sampai waktu yang belum
+              ditentukan.nBSI MOBILE ERROR Connection Timeout, Ke Bank enggak
+              bisa ambil tunai karena alasan belum online, ATM juga enggak
+              bisa...nAstagfirullah. Lagi darurat ginin@bankbsi_id
+              https://t.co/IWS7V3C7Hj
+            </p>
+          </a>
         </div>
-        <div className={styles.card}>
-          <div className={styles.grod}>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Username</h3>
-              <p>DanyYar</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Id</h3>
-              <p>1655335707928580000</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Reetweet</h3>
-              <p>12</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Like</h3>
-              <p>33</p>
-            </a>
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Jumlah Replay</h3>
-              <p>42</p>
-            </a>
-          </div>
-          <div
-            className={styles.grud}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <a
-              className={styles.card}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <h3>Text</h3>
-              <p>
-                BSI lagi error gaes tgl 8 mei ini.n#bsimobile
-                https://t.co/YI3ydHUFPo
-              </p>
-            </a>
-          </div>
+
+        <div className={styles.grud}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>KimTzuyu1406</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1655335707928580000</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Reetweet</h3>
+            <p>28</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>7</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>112</p>
+          </a>
+        </div>
+        <div className={styles.grud} target="_blank" rel="noopener noreferrer">
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Text</h3>
+            <p>BSI Mobile kenapa sihh? @bankbsi_id https://t.co/XqhksQ00BM</p>
+          </a>
+        </div>
+
+        <div className={styles.grod}>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Username</h3>
+            <p>DanyYar</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Id</h3>
+            <p>1655335707928580000</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Reetweet</h3>
+            <p>12</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Like</h3>
+            <p>33</p>
+          </a>
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Jumlah Replay</h3>
+            <p>42</p>
+          </a>
+        </div>
+        <div className={styles.grud} target="_blank" rel="noopener noreferrer">
+          <a className={styles.card} target="_blank" rel="noopener noreferrer">
+            <h3>Text</h3>
+            <p>
+              BSI lagi error gaes tgl 8 mei ini.n#bsimobile
+              https://t.co/YI3ydHUFPo
+            </p>
+          </a>
         </div>
         <div id="User3" className={styles.card}>
           <Image
             className={styles.logoContainer}
-            src="/Calo Tiket.png"
+            src="/BSI Mobile.png"
             alt="Next.js Logo"
             width={400}
             height={250}
