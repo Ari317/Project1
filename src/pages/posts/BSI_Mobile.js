@@ -321,7 +321,7 @@ export default function Post() {
           </a>
         </div>
 
-        <div className={styles.grod}>
+        <div className={styles.grud}>
           <a className={styles.card} target="_blank" rel="noopener noreferrer">
             <h3>Username</h3>
             <p>DanyYar</p>
